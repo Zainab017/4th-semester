@@ -1,0 +1,47 @@
+1. LangChain
+
+LangChain is a software development framework designed to simplify the creation of applications that use Large Language Models (LLMs). It provides components such as chains, agents, memory modules, and integrations with external tools. The primary role of LangChain is not to generate content itself but to orchestrate how an LLM interacts with data sources, APIs, vector databases, and other services. It allows developers to combine complex workflows into a structured, modular pipeline.
+
+Key Purpose: Application framework for building LLM-driven systems.
+
+2. Large Language Models (LLMs)
+
+LLMs are advanced neural network models trained on massive text corpora. They can understand, summarize, translate, and generate human-like text. GPT, Llama, and PaLM are common examples. Their internal structure is typically based on the transformer architecture, enabling them to capture patterns across large sequences of text.
+
+Key Purpose: Core models responsible for natural language understanding and generation.
+
+3. Retrieval-Augmented Generation (RAG)
+
+RAG is an AI methodology that combines information retrieval with language generation. Instead of relying solely on an LLM’s internal knowledge, external documents are retrieved from a database or file system based on the user’s query. These retrieved documents are then provided to the LLM to produce accurate, context-grounded responses. This reduces hallucinations and allows the model to answer questions using up-to-date or domain-specific data.
+
+Key Purpose: Enhancing LLM output using externally retrieved information.
+
+4. FAISS (Facebook AI Similarity Search)
+
+FAISS is a library developed by Meta (Facebook AI Research) for efficient similarity search and clustering of dense vectors. It enables extremely fast nearest-neighbor searches among millions or billions of vectors. FAISS itself is not a database; it is an indexing and search engine that allows vector similarity queries with high performance.
+
+Key Purpose: High-speed vector indexing and similarity search.
+
+5. Vector
+
+A vector, in the context of AI and machine learning, is a numerical representation of data. Text, images, or audio can be transformed into vectors using an embedding model. Each vector is a list of numbers capturing the semantic meaning of the input. Vectors allow mathematical comparison of similarity between pieces of data: similar meanings lead to vectors that are close to each other in vector space.
+
+Key Purpose: Numerical representation used for semantic comparison.
+
+6. Vector Database (VectorDB)
+
+A VectorDB is a specialized database designed to store, index, and retrieve vectors efficiently. Unlike traditional databases that store rows and columns of structured data, a vector database focuses on rapid similarity search across high-dimensional embedding vectors. Many vector databases internally use FAISS or similar libraries to accelerate their search operations. Examples include Pinecone, Weaviate, Milvus, and ChromaDB.
+
+Key Purpose: Persistent storage and retrieval system for vector embeddings.
+
+7. Generative AI (GenAI)
+
+Generative AI refers to the broad field of artificial intelligence dedicated to creating new content, such as text, images, audio, video, or code. It encompasses several types of generative models, including LLMs, diffusion models, and GANs. Generative AI systems learn patterns from large datasets and then produce new outputs that resemble those patterns.
+
+Key Purpose: Broad category of AI focused on content creation.
+
+8. Generative Adversarial Networks (GANs)
+
+GANs are a class of generative models consisting of two neural networks: a generator and a discriminator. The generator produces synthetic data, while the discriminator attempts to distinguish real data from generated data. Through adversarial training, the generator improves until it can produce realistic content. GANs are widely used for image synthesis, deepfake creation, artistic style transfer, and various visual generation tasks. Unlike LLMs, GANs are generally not used for text generation.
+
+Key Purpose: Image and visual data generation through adversarial learning.
